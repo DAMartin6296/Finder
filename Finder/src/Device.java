@@ -1,4 +1,4 @@
-//Team ATS. Author: Hector Rios.
+//Team ATS. Authors: Hector Rios, Daniel Martinez, Ryan Christian, Gabriel Rodriguez, Andrew Shin.
 
 import java.util.Random;
 
