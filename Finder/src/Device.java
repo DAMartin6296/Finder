@@ -41,7 +41,7 @@ public class Device
 		return status_lost;
 	}
 	
-	//Sets the status_lost boolean to opposite. Item lost or Item Found
+	//Sets the status_lost boolean to opposite.
 	public boolean set_device_status()
 	{
 		return !status_lost;
