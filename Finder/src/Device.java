@@ -5,7 +5,10 @@ import java.util.Random;
 public class Device 
 {
 	private String device_User = "";
+	
+	//ID of the device or device's tag.
 	private int device_ID = 0000;
+	
 	boolean status_lost = false; //False = not Lost, True = is Lost.
 	
 	/*
@@ -38,16 +41,10 @@ public class Device
 		return status_lost;
 	}
 	
-	//Call to set the device to lost (true) if its known to be lost.
-	public void change_status_lost()
+	//Sets the status_lost boolean to opposite. Item lost or Item Found
+	public boolean set_device_status()
 	{
-		status_lost = true; //true = is lost.
-	}
-	
-	//Call to set the device to found (false) if not lost.
-	public void change_status_found()
-	{
-		status_lost = false; //false = not lost.
+		return !status_lost;
 	}
 	
 	//Purpose is to return location to the server.
