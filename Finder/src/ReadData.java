@@ -52,7 +52,7 @@ public class ReadData {
                 
                 if (User.equals(userArray[0]))
             	{
-            		System.out.println("User Found?: " + User);
+            		System.out.println("User Found: " + User);
             		user_line = line;
             		//Assigning data to class variables.
             		UserPassword = userArray[1].trim(); //Assigning the password.
@@ -84,9 +84,9 @@ public class ReadData {
 							     Device_ID + ", ");
 		
 		//System.out.println("\nWRITE Statement: " + writeStatement);
-		writeStatement += (status) ? 1 : 0;
+		writeStatement += (status) ? (1) : (0);
 		//System.out.println("\nline count: "+ lineUser + "\nWRITE Statement: " + writeStatement);
-		
+
 		//Write Area Below Start
 		try {
 			
@@ -128,7 +128,6 @@ public class ReadData {
             e.printStackTrace();
         }
 	}
-	
 }
 
 

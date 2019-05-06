@@ -28,18 +28,17 @@ public class Server {
 			
 			location = hrios.returnlocation();
 			
-			System.out.println("Device User: ");
+			System.out.println("Device Location:");
 			for (int count = 0; count < location.length; count++)
 			{
 				System.out.println("Location Num: " + location[count]);
 			}
 			
 			s.close();
-
 		}
 		else if (in.equals("N") || in.equals("n"))
 		{
-			System.out.println("Then get lost");
+			System.out.println("Then get lost!");
 			s.close();
 			return;
 		}
