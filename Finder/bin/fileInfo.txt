@@ -1,0 +1,7 @@
+MODEL: USER, PASSWORD, PHONE ID, IS_PHONE_LOST: (1 = true, 0 = false)
+//----//
+BeatthatPussy449, password1, 5678, 0
+hrios, Raskol9832, 5078, 1
+hero_hero, PAK_6969, 5578, 1
+NoScopeKid, mYJADE1212, 1278, 1
+

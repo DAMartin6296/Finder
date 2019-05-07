@@ -9,7 +9,7 @@ public class Device
 	//ID of the device or device's tag.
 	private int device_ID = 0000;
 	
-	boolean status_lost = false; //False = not Lost, True = is Lost.
+	private boolean status_lost = false; //False = not Lost, True = is Lost.
 	
 	/*
 	 * Registering Device? Enter ID

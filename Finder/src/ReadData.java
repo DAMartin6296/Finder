@@ -13,10 +13,10 @@ public class ReadData {
 	private String User;
 	private String UserPassword;
 	private int Device_ID;    
-	public String filename;        //File name to read from. 
-	public boolean isLost = false; // FALSE = 0 / TRUE = 1
+	private String filename;        //File name to read from. 
+	private boolean isLost = false; // FALSE = 0 / TRUE = 1
 	 
-	public String user_line;       //Line to update the line in the data.
+	private String user_line;       //Line to update the line in the data.
 	
 	public ReadData(String pathname, String userInput)
 	{
@@ -42,7 +42,7 @@ public class ReadData {
             //While getting each line of the data file, BUT stops when USER data found.
             //Loop through each line and determine which user data to choose.
             while ((line = bufferedReader.readLine()) != null) {
-                System.out.println("User Data in file: " + line);
+            //    System.out.println("User Data in file: " + line);
                 
                 System.out.println("Checking User name in line of data ...");
                 
@@ -85,7 +85,7 @@ public class ReadData {
 		
 		//System.out.println("\nWRITE Statement: " + writeStatement);
 		writeStatement += (status) ? (1) : (0);
-		//System.out.println("\nline count: "+ lineUser + "\nWRITE Statement: " + writeStatement);
+		// System.out.println("\nWRITE Statement: " + writeStatement);
 
 		//Write Area Below Start
 		try {
