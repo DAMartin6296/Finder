@@ -3,5 +3,5 @@ MODEL: USER, PASSWORD, PHONE ID, IS_PHONE_LOST: (1 = true, 0 = false)
 8e@tth@tPu55y449, password1, 5678, 0
 hrios, Raskol9832, 5078, 0
 hero_hero, PAK_6969, 5578, 0
-NoScopeKid, mYJADE1212, 1278, 1
+NoScopeKid, mYJADE1212, 1278, 0
 
